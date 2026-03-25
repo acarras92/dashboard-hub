@@ -1,0 +1,65 @@
+{
+  "lastUpdated": "2026-03-25",
+  "dashboards": [
+    {
+      "name": "UES Co-op & Condo Purchase",
+      "category": "Housing Search",
+      "description": "Interactive map and table of UES co-ops and condos for sale. Filters by price, beds, sqft, maintenance, and ownership type. Auto-updated by multi-broker scraper and Zillow Gmail alerts.",
+      "url": "https://acarras92.github.io/ues-coop-dashboard/",
+      "repo": "acarras92/ues-coop-dashboard",
+      "dataFile": "listings.json",
+      "automated": true,
+      "tags": ["Real Estate", "UES", "Purchase", "Map"]
+    },
+    {
+      "name": "Brooklyn Heights & Cobble Hill Purchase",
+      "category": "Housing Search",
+      "description": "Brooklyn purchase tracker focused on Brooklyn Heights and Cobble Hill. $2.5M–$3M, 3+ BR, 2+ BA co-ops and condos. Fed by daily Gmail alert scanner.",
+      "url": "https://acarras92.github.io/ues-coop-dashboard/brooklyn_dashboard.html",
+      "repo": "acarras92/ues-coop-dashboard",
+      "dataFile": "brooklyn_listings.json",
+      "automated": true,
+      "tags": ["Real Estate", "Brooklyn", "Purchase"]
+    },
+    {
+      "name": "UES Luxury Rental",
+      "category": "Housing Search",
+      "description": "UES luxury rental tracker. $12K–$18K/mo, 2+ BR, doorman buildings. Interactive map with Compass scraper integration.",
+      "url": "https://acarras92.github.io/ues-coop-dashboard/ues-rentals.html",
+      "repo": "acarras92/ues-coop-dashboard",
+      "dataFile": "ues_rentals.json",
+      "automated": true,
+      "tags": ["Real Estate", "UES", "Rental", "Map"]
+    },
+    {
+      "name": "Google / TripAdvisor — 18 Pack",
+      "category": "Hospitality Intel",
+      "description": "Portfolio-wide Google and TripAdvisor review monitoring across the 18-property pack. Tracks ratings, review volume, and sentiment trends.",
+      "url": "https://acarras92.github.io/portfolio-intel/",
+      "repo": "acarras92/portfolio-intel",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotel", "Reviews", "TripAdvisor", "Google"]
+    },
+    {
+      "name": "CdS Pricing Dashboard",
+      "category": "Hospitality Intel",
+      "description": "'Auana CdS pricing tracker. Daily scraper captures rate data — 198K+ rows and growing. Monitors pricing trends across room types and dates.",
+      "url": "https://acarras92.github.io/kalia-cds-pricing/",
+      "repo": "acarras92/kalia-cds-pricing",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotel", "Pricing", "Hawaii", "Scraper"]
+    },
+    {
+      "name": "Waikiki Luau Tracker",
+      "category": "Hospitality Intel",
+      "description": "Daily availability and sell-out tracking for Waikiki luau experiences. Monitors 14 items across 2,300+ date slots for demand patterns.",
+      "url": "https://acarras92.github.io/waikiki-luau-intel/",
+      "repo": "acarras92/waikiki-luau-intel",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotel", "Hawaii", "Luau", "Availability"]
+    }
+  ]
+}
