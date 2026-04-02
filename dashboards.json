@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25",
+  "lastUpdated": "2026-04-02",
   "dashboards": [
     {
       "name": "UES Co-op & Condo Purchase",
@@ -70,6 +70,46 @@
       "dataFile": "data.json",
       "automated": true,
       "tags": ["Hotel", "Acquisitions", "CitizenM", "Reviews", "BOV", "Marriott"]
+    },
+    {
+      "name": "IBKR Paper Trading Dashboard",
+      "category": "Finance",
+      "description": "IBKR paper trading dashboard. Tracks positions, P&L, and trade history.",
+      "url": "https://acarras92.github.io/ibkr-dashboard/",
+      "repo": "acarras92/ibkr-dashboard",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Trading", "IBKR", "Finance"]
+    },
+    {
+      "name": "Hawaii Luau Tracker — Waikiki Starlight",
+      "category": "Hospitality Intel",
+      "description": "Availability and pricing tracker for the Waikiki Starlight Luau experience.",
+      "url": "https://acarras92.github.io/hawaii-luau-tracker/",
+      "repo": "acarras92/hawaii-luau-tracker",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotel", "Hawaii", "Luau", "Availability"]
+    },
+    {
+      "name": "Moxy New Orleans — Guest Sentiment",
+      "category": "Hospitality Intel",
+      "description": "Moxy New Orleans guest sentiment dashboard. Review analysis and rating trends.",
+      "url": "https://acarras92.github.io/moxy-reviews/",
+      "repo": "acarras92/moxy-reviews",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotel", "Reviews", "Moxy", "Sentiment"]
+    },
+    {
+      "name": "NYC Property Tax Tracker",
+      "category": "Real Estate",
+      "description": "NYC hotel and commercial property tax assessments from DOF and ACRIS. Tracks market values, taxable values, and assessment changes.",
+      "url": "https://acarras92.github.io/nyc-tax-dashboard/",
+      "repo": "acarras92/nyc-tax-dashboard",
+      "dataFile": "",
+      "automated": true,
+      "tags": ["Hotels", "Tax", "NYC", "Highgate"]
     }
   ]
 }
