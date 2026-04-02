@@ -62,14 +62,14 @@
       "tags": ["Hotel", "Hawaii", "Luau", "Availability"]
     },
     {
-      "name": "NYC Property Tax Tracker",
-      "category": "Real Estate",
-      "description": "NYC hotel and commercial property tax assessments from DOF and ACRIS. Tracks market values, taxable AV, tax rates, historical trends, mortgages, and red flags.",
-      "url": "https://acarras92.github.io/nyc-tax-dashboard/",
-      "repo": "acarras92/nyc-tax-dashboard",
-      "dataFile": "properties.json",
-      "automated": false,
-      "tags": ["Hotels", "Tax", "NYC", "Highgate"]
+      "name": "CitizenM US Portfolio — Review Intelligence",
+      "category": "Acquisitions",
+      "description": "Guest review intelligence for CitizenM US portfolio (16 assets, 4,604 keys). TripAdvisor ratings, RISK/WATCH/ADEQUATE flags, Marriott enrollment signals, HVAC CapEx flags, and BOV notes. Scraped via Firecrawl. Auto-updates monthly.",
+      "url": "https://acarras92.github.io/citizenm-review-dashboard/",
+      "repo": "acarras92/citizenm-review-dashboard",
+      "dataFile": "data.json",
+      "automated": true,
+      "tags": ["Hotel", "Acquisitions", "CitizenM", "Reviews", "BOV", "Marriott"]
     }
   ]
 }
