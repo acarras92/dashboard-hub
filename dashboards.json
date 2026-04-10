@@ -180,6 +180,22 @@
         "Hedging",
         "Capital Markets"
       ]
+    },
+    {
+      "name": "Waikiki Hotel Rate Tracker",
+      "category": "Hospitality Intel",
+      "description": "Daily forward rate tracking for 30 Waikiki hotels across 3 booking windows (+14/+30/+60 days). Segmented by tier: Luxury, Upscale, and Select Service. Park Hyatt Ala Moana highlighted as active deal.",
+      "url": "https://acarras92.github.io/waikiki-tracker/",
+      "repo": "acarras92/waikiki-tracker",
+      "dataFile": "data/latest.json",
+      "automated": true,
+      "tags": [
+        "Hotel",
+        "Hawaii",
+        "Rates",
+        "Waikiki",
+        "Acquisition"
+      ]
     }
   ]
 }
