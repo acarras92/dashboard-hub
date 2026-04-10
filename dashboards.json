@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02",
+  "lastUpdated": "2026-04-10",
   "dashboards": [
     {
       "name": "UES Co-op & Condo Purchase",
@@ -9,7 +9,12 @@
       "repo": "acarras92/ues-coop-dashboard",
       "dataFile": "listings.json",
       "automated": true,
-      "tags": ["Real Estate", "UES", "Purchase", "Map"]
+      "tags": [
+        "Real Estate",
+        "UES",
+        "Purchase",
+        "Map"
+      ]
     },
     {
       "name": "Brooklyn Heights & Cobble Hill Purchase",
@@ -19,7 +24,11 @@
       "repo": "acarras92/ues-coop-dashboard",
       "dataFile": "brooklyn_listings.json",
       "automated": true,
-      "tags": ["Real Estate", "Brooklyn", "Purchase"]
+      "tags": [
+        "Real Estate",
+        "Brooklyn",
+        "Purchase"
+      ]
     },
     {
       "name": "UES Luxury Rental",
@@ -29,7 +38,12 @@
       "repo": "acarras92/ues-coop-dashboard",
       "dataFile": "ues_rentals.json",
       "automated": true,
-      "tags": ["Real Estate", "UES", "Rental", "Map"]
+      "tags": [
+        "Real Estate",
+        "UES",
+        "Rental",
+        "Map"
+      ]
     },
     {
       "name": "Google / TripAdvisor — 18 Pack",
@@ -39,7 +53,12 @@
       "repo": "acarras92/portfolio-intel",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotel", "Reviews", "TripAdvisor", "Google"]
+      "tags": [
+        "Hotel",
+        "Reviews",
+        "TripAdvisor",
+        "Google"
+      ]
     },
     {
       "name": "CdS Pricing Dashboard",
@@ -49,7 +68,12 @@
       "repo": "acarras92/kalia-cds-pricing",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotel", "Pricing", "Hawaii", "Scraper"]
+      "tags": [
+        "Hotel",
+        "Pricing",
+        "Hawaii",
+        "Scraper"
+      ]
     },
     {
       "name": "Waikiki Luau Tracker",
@@ -59,7 +83,12 @@
       "repo": "acarras92/waikiki-luau-intel",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotel", "Hawaii", "Luau", "Availability"]
+      "tags": [
+        "Hotel",
+        "Hawaii",
+        "Luau",
+        "Availability"
+      ]
     },
     {
       "name": "CitizenM US Portfolio — Review Intelligence",
@@ -69,7 +98,14 @@
       "repo": "acarras92/citizenm-review-dashboard",
       "dataFile": "data.json",
       "automated": true,
-      "tags": ["Hotel", "Acquisitions", "CitizenM", "Reviews", "BOV", "Marriott"]
+      "tags": [
+        "Hotel",
+        "Acquisitions",
+        "CitizenM",
+        "Reviews",
+        "BOV",
+        "Marriott"
+      ]
     },
     {
       "name": "IBKR Paper Trading Dashboard",
@@ -79,7 +115,11 @@
       "repo": "acarras92/ibkr-dashboard",
       "dataFile": "",
       "automated": true,
-      "tags": ["Trading", "IBKR", "Finance"]
+      "tags": [
+        "Trading",
+        "IBKR",
+        "Finance"
+      ]
     },
     {
       "name": "Hawaii Luau Tracker — Waikiki Starlight",
@@ -89,7 +129,12 @@
       "repo": "acarras92/hawaii-luau-tracker",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotel", "Hawaii", "Luau", "Availability"]
+      "tags": [
+        "Hotel",
+        "Hawaii",
+        "Luau",
+        "Availability"
+      ]
     },
     {
       "name": "Moxy New Orleans — Guest Sentiment",
@@ -99,7 +144,12 @@
       "repo": "acarras92/moxy-reviews",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotel", "Reviews", "Moxy", "Sentiment"]
+      "tags": [
+        "Hotel",
+        "Reviews",
+        "Moxy",
+        "Sentiment"
+      ]
     },
     {
       "name": "NYC Property Tax Tracker",
@@ -109,7 +159,27 @@
       "repo": "acarras92/nyc-tax-dashboard",
       "dataFile": "",
       "automated": true,
-      "tags": ["Hotels", "Tax", "NYC", "Highgate"]
+      "tags": [
+        "Hotels",
+        "Tax",
+        "NYC",
+        "Highgate"
+      ]
+    },
+    {
+      "name": "SOFR Forward Curve",
+      "category": "Capital Markets",
+      "description": "Daily forward SOFR curve and swap rate trends scraped from Chatham Financial. Used for cap cost analysis and hedge timing.",
+      "url": "https://acarras92.github.io/sofr-dashboard/",
+      "repo": "acarras92/sofr-dashboard",
+      "dataFile": "data/sofr_latest.json",
+      "automated": true,
+      "tags": [
+        "SOFR",
+        "Rates",
+        "Hedging",
+        "Capital Markets"
+      ]
     }
   ]
 }
